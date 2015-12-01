@@ -312,6 +312,12 @@ header .scroll-down {
   bottom: 20px;
   text-align: center;
 }
+
+@media (max-width: 767px) {
+  header .scroll-down {
+    display: none;
+  }
+}
 header .scroll-down .btn {
   height: 50px;
   width: 50px;
