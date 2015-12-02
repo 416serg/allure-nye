@@ -284,6 +284,19 @@ header {
   -o-background-size: cover;
   padding: 100px 0;
 }
+
+header .tickets-bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 100px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  header .tickets-bottom {
+    bottom: 0;
+  }
+}
 header .intro-content {
   color: white;
   text-align: center;
