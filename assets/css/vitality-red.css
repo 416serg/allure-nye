@@ -1199,3 +1199,7 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-prev,
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   line-height: 55px;
 }
+
+.btn-facebook:hover, .btn-facebook:focus {
+  color: #3b5998 !important;
+}
